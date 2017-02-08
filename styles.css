@@ -1,0 +1,89 @@
+
+.container {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  min-height: 50px;
+  position: relative;
+}
+.big {
+  height: 400px;
+}
+
+.default,
+.inline-block,
+.inline,
+.float-left,
+.float-right,
+.static,
+.absolute-top-right,
+.absolute-bottom-left,
+.relative,
+.fixed {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.default {
+  border: 3px solid tomato;
+  display: block;
+}
+
+.inline-block {
+  border: 3px solid lime;
+  display: inline-block;
+}
+
+.inline {
+  border: 3px solid brown;
+  display: inline;
+}
+
+.none {
+  display: none;
+}
+
+.float-left {
+  border: 3px solid magenta;
+  display: block;
+  float: left;
+}
+.float-right {
+  border: 3px solid magenta;
+  display: block;
+  float: right;
+}
+
+.static {
+  border: 3px solid salmon;
+  position: static;
+}
+
+.relative {
+  border: 3px solid blue;
+  position: relative;
+}
+
+.absolute-top-right {
+  border: 3px solid lightgray;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.absolute-bottom-left {
+  border: 3px solid lightgray;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fixed {
+  background: gold;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
